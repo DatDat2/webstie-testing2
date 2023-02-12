@@ -1,0 +1,131 @@
+div.right-side-of-main {
+    display: flex;
+    flex-direction: column;
+    width: 160px;
+}
+.video-preview-grid-grid-column {
+    flex: 1;
+    display: grid;
+    grid-template-rows: 50px;
+    row-gap: 5px;
+    margin-top: 5px;
+}
+.video-preview-grid {
+
+    display: grid;
+    grid-template-columns: 70px 85px ;
+    column-gap: 5px;
+    
+}
+
+.thumbnail-title {
+    flex-direction: column;
+}
+.thumbnail-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+.thumbnail-title {
+    font-family: Roboto;
+    font-size: 6px;
+    color: black;
+
+}
+.video-title {
+    font-weight: 601px;
+    margin: 0px 0px 0px 0px;
+    width: 105px;
+}
+.author-div {
+    height: 10px;
+    margin-bottom: 2px;
+
+}
+.author {
+    font-size: 5px;
+    margin: 5px 0px 0px 0px;
+    color: rgb(97, 96, 96);
+    display: inline-block;
+}
+.verification {
+    display: inline-block;
+    margin-left: 2px;
+    font-size: 4px;
+    background-color: gray;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    text-align: center;
+    color: white;
+}
+.video-stats-right-side {
+    margin: 0px;
+    font-size: 5px;
+
+    
+}
+.topics {
+    height: 20px;
+    font-size: 6px;
+    display: flex;
+    font-family: Roboto;
+    align-items: center;
+    column-gap: 3px;
+}
+.All-topic {
+    background-color: black;
+    color: white;
+    height: 15px;
+    width: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    cursor: pointer;
+
+}
+.Jacob-Collier {
+    background-color: rgb(235, 231, 231);
+    color: black;
+    height: 15px;
+    width: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    cursor: pointer;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: 0.2px solid;
+}
+.music-theory {
+    background-color: rgb(235, 231, 231);
+    color: black;
+    height: 15px;
+    width: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    cursor: pointer;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: 0.2px solid;
+}
+.related {
+    background-color: rgb(235, 231, 231);
+    color: black;
+    height: 15px;
+    width: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    cursor: pointer;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: 0.5px solid;
+    opacity: 0.2;
+}

@@ -1,0 +1,151 @@
+div.comment-section {
+    display: flex;
+    flex-direction: column;
+
+}
+.comment-section-info {
+    height: 60px;
+    font-size: 8px;
+    color: black;
+    position: relative;
+
+}
+.comment-section-info:focus-within {
+    height: 70px;
+    z-index: 1;
+}
+.number-of-comments {
+    margin-right: 20px;
+}
+.comment-section-info img {
+    height: 20px;
+    width: 20px;
+}
+.sort-by {
+    font-weight: 600;
+}
+.add-comment-div {
+    display: flex;
+    position: relative;
+    z-index: 2;
+
+}
+.commentor-profile {
+    width: 5px;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 50%;
+}
+.add-a-comment-input {
+    font-size: 6.5px;
+    height: 10px;
+    margin-left: 5px;
+    border-style: none;
+    flex: 1;
+    border-bottom: solid 0.5px gray;
+}
+
+.add-a-comment-input:focus {
+    outline: 0px;
+    border-bottom-width: 1.5px;
+    border-color: black;
+    transition: border-bottom-width 0.1s;
+
+}
+.input-focus-div {
+    position: absolute;
+    bottom: 4px;
+    right: 0px;
+    left: 25px;
+    height: 20px;
+    display: flex;
+    background-color: rgb(0,0,0,0);
+    z-index: -1;
+    opacity: 1;
+}
+
+.input-focus-div img {
+    width: 10px;
+    height: 10px;
+    padding-right: 265px;
+}
+.cancel-button,
+.comment-button {
+    width: 50px;
+    height: 15px;
+    font-size: 7px;
+    border-style: none;
+    font-family: Roboto;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.cancel-button {
+    margin-right: 10px;
+}
+.comment-button {
+    background-color: rgb(219, 219, 219);
+    border-radius: 2px;
+    color: gray;
+}
+.comments {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+div.comment-flexbox {
+    display: flex;
+    flex-direction: row;
+}
+.comment-img-div {
+    width: 30px;
+}
+.comment-img-div img {
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+    object-position : top;
+    border-radius: 50%;
+}
+.comment-text-div {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.name-of-commentor {
+    font-size: 7px;
+    margin: 0px 0px 5px 0px;
+    color: black;
+}
+.name-of-commentor span {
+    color: grey;
+    font-size: 6px;
+}
+.comment-text {
+    color: black;
+    font-size: 8px;
+    margin: 0px;
+    font-weight: lighter;
+}
+.buttons-flexbox-comments {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0px;
+}
+.buttons-flexbox-comments img {
+    width: 10px;
+    height: 10px;margin-right: 3px;
+}
+.buttons-flexbox-comments p {
+    font-size: 7px;
+    color: grey;
+    margin-right: 2px;
+}
+.number-of-replies {
+    margin-top: 0px;
+    color: blue;
+    font-size: 7px;
+}

@@ -1,0 +1,160 @@
+
+  div.video {
+    background-color: lightblue;
+    height: 210px;
+  }
+  div.video-info {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+  }
+  .video-info-hashtags {
+    margin: 5px 0px 0px 0px;
+    color: #065FD4;
+    font-size: 5px;
+  }
+  .video-info-title {
+    margin: 3px 0px 0px 0px;
+    color: black;
+    font-size: 8px;
+    font-weight: 501;
+  }
+  .views-and-date {
+    color: black;
+    font-size: 6px;
+  }
+  .video-stats {
+    margin: 5px 0px 0px 0px;
+    color: grey;
+    font-size: 6px;
+    font-weight: 500;
+    width: 280px;
+  }
+  div.interactive-buttons {
+    display: flex;
+  }
+  .interactive-buttons-div {
+    display: flex;
+    height: 20px;
+    align-items: center;
+    margin-left: 5px;
+
+  }
+  .video-info-buttons {
+     height: 10px;
+     width: 10px;
+     margin-right: 5px;
+     cursor: pointer;
+  }
+  .video-info-buttons-text {
+    font-size: 7px;
+    color: black;
+    font-weight: 500;
+  }
+  div.channel-row {
+    display: flex;
+    flex-direction: row;
+
+  }
+  .youtuber-box {
+    flex: 1;
+    border: solid 0.5px;
+    border-radius: 2px;
+    margin-right: 7px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    padding: 2px 0px 2px 0px;
+  }
+  .youtuber-box img {
+    width: 18px;
+    height: 18px;
+    object-fit: cover;
+    object-position: top;
+    margin-left: 5px;
+    margin-right: 3px;
+    border-radius: 50%;
+    
+  }
+
+  p.youtuber-name {
+    font-size: 6px;
+    color: black;
+    font-weight: 600;
+    line-height: 8px;
+    flex: 1;
+  }
+  .youtuber-name .subscriber-count {
+    color: grey;
+    display: block;
+    font-size: 5px;
+    font-weight: 100;
+  } 
+  .subscribe-button {
+    font-size: 7px;
+    height: 18px;
+    width: 50px;
+    font-weight: bold;
+    background-color: rgb(180, 3, 3);
+    color: white;
+    border: none;
+    border-radius: 1px;
+    margin-right: 5px;
+    cursor: pointer;
+    text-align: center;
+    padding: 0px 2px 0px 2px;
+  }
+  .top-comment-box {
+    flex: 1;
+    display: flex;
+    border: 0.5px solid;
+    border-radius: 2px;
+    padding-top: 1px;
+  }
+  .comment-count-div {
+    width: 40px;
+    line-height: 4px;
+    cursor: pointer;
+    border-right: solid 0.5px;
+    height: 20px;
+  }
+  .comment-count-div p {
+    font-size: 6px;
+    color: black;
+    font-weight:600;
+    margin-left: 5px;
+  }
+  .comment-count-div .comment-count {
+    color: grey;
+    font-weight: 100;
+    font-size: 6px;
+  }
+  .comment-info-div {
+    flex: 1;
+    display: flex;
+    cursor: pointer;
+    height: 20px;
+  }
+  .comment-info-div img {
+    height: 10px;
+    width: 10px;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 50%;
+    margin-left: 5px;
+    margin-right: 5px;
+    vertical-align: -20px;
+    margin-top: 5px;
+  }
+  .comment-text {
+    font-size: 6px;
+    color: black;
+  }
+  .comment-arrow-img {
+    height: 13px;
+    width: 13px;
+    cursor: pointer;
+  }
+
+
+

@@ -1,0 +1,128 @@
+
+  header {
+    background-color: white;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    height: 25px;
+    display: flex;
+    flex-direction: row;
+    z-index: 100;
+  }
+
+  div.left-section-of-header {
+    width: 150px;
+    display: flex;
+    align-items: center;
+  }
+  img.menu {
+    width: 12px;
+    margin: 0px 10px 0px 10px;
+  }
+  div.youtube-logo-div {
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+  img.youtube-logo-image {
+    width: 40px;
+  }
+  p.CA-tag {
+    font-size: 4.5px;
+    color: grey;
+    position: absolute;
+    top: -7px;
+    right: -8px;
+  }
+  div.middle-section-of-header {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  div.search-bar-div {
+    width: 102px;
+    margin-right: 0px;
+    background-color: lightgoldenrodyellow;
+    display: flex;
+    align-items: center;
+    flex: 1;
+  }
+  .search-bar {
+    height: 15px;
+    color: grey;
+    font-size: 8px;
+    font-weight: 200;
+    border-radius: 0px;
+    border-width: 0.5px;
+    border-color: grey;
+    flex: 1;
+  }
+  div.search-img-div {
+    width: 25px;
+    border: solid 1px;
+    margin-right: 0px;
+    height: 17px;
+    border-radius: 0px;
+    border-width: 0.5px;
+    border-color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  img.search-img {
+    width: 11px;
+  }
+
+  div.voice-search-img-div {
+    border: solid 1px;
+    width: 18px;
+    background-color: rgb(231, 231, 231);
+    height: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin-left: 3px;
+    border-style: none;
+  }
+  img.voice-search-img {
+    width: 11px;
+  }
+
+  div.right-section-of-header {
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+  }
+  .upload-img,
+  .notifications-img,
+  .profile-img {
+    width: 11px;
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+  div.notifications-div {
+    position: relative;
+  }
+
+  div.notificiation-count {
+    width: 6px;
+    color: white;
+    background-color: red;
+    position: absolute;
+    font-size: 5px;
+    text-align: center;
+    border-radius: 50%;
+    top: 5px;
+    right: 4px;
+  }
+  .profile-img {
+    width: 18px;
+    height: 18px;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 50%;
+  }
